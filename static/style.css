@@ -1,0 +1,58 @@
+html {
+    font-size: 100%;
+    font-family: "KongtextRegular", serif;
+}
+
+body {
+    font-size: 1.0rem;
+    line-height: 1.2;
+    max-width: 38em;
+    margin: auto;
+    color: #d9d8dc;
+    background-color: #120c0e;
+    padding: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    padding: 0.8rem;
+    line-height: 1.2;
+    font-family: "KongtextRegular", serif;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+li {
+    padding: 0.3rem;
+    color: cadetblue;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 1.0rem;
+    font-family: "KongtextRegular", serif;
+    font-stretch: normal;
+}
+
+button {
+    font-family: "KongtextRegular", serif;
+    color: black;
+    border-color: deeppink;
+    background-color: #d9d8dc;
+    font-size: 1.0rem;
+}
+
+
+@font-face {
+font-family: "KongtextRegular";
+src: url("./fonts/KongtextRegular-q36q.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
